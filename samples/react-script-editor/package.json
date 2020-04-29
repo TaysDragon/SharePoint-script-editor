@@ -5,7 +5,7 @@
     "private": true,
     "main": "lib/index.js",
     "engines": {
-        "node": "8.17.0"
+        "node": "10.20.1"
     },
     "resolutions": {
         "@types/react": "16.8.8"
