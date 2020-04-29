@@ -1,10 +1,11 @@
 {
-    "name": "pnp-script-editor",
-    "version": "1.0.0",
+    "name": "modern-script-editor",
+    "version": "1.0.1",
+    "description": "allows the use of raw code within Sharepoint online modern enviornment",
     "private": true,
     "main": "lib/index.js",
     "engines": {
-        "node": ">=0.10.0"
+        "node": "8.15.1"
     },
     "resolutions": {
         "@types/react": "16.8.8"
@@ -35,7 +36,7 @@
         "@types/chai": "3.4.34",
         "@types/mocha": "2.2.38",
         "ajv": "~5.2.2",
-        "gulp": "~3.9.1",
+        "gulp": "3.9.1",
         "tslint-microsoft-contrib": "5.0.0",
         "webpack-bundle-analyzer": "^3.6.1"
     },
@@ -43,5 +44,11 @@
         "build": "gulp bundle",
         "clean": "gulp clean",
         "test": "gulp test"
-    }
+    },
+    "author": "Mikael Svenson and edited by Sharon Oud",
+    "license": "ISC",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaysDragon/SharePoint-script-editor.git"
+  }
 }

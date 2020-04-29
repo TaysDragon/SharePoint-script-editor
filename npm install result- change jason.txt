@@ -1,0 +1,14 @@
+MyKingdom@MyKingdom-PC MINGW64 /m/z Red Pixel/Endeavor/1 SharePoint/Code/SharePo
+int-script-editor (master)
+$ npm install
+npm WARN saveError ENOENT: no such file or directory, open 'M:\z Red Pixel\Endea
+vor\1 SharePoint\Code\SharePoint-script-editor\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'M:\z Red Pixel\Endeavor
+\1 SharePoint\Code\SharePoint-script-editor\package.json'
+npm WARN SharePoint-script-editor No description
+npm WARN SharePoint-script-editor No repository field.
+npm WARN SharePoint-script-editor No README data
+npm WARN SharePoint-script-editor No license field.
+
+added 15 packages from 13 contributors in 4.496s
+found 0 vulnerabilities

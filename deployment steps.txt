@@ -1,0 +1,39 @@
+on root office 365- for read only permissions
+create document library cdn
+one more folder inside cdn
+have jason and js file
+
+go to appcatalog
+
+in write-manifest-jason, add root path for cds
+
+node version 8.15.1 - a lot of bugs in 10, 11, 12, not stable
+build tool is 3.7.4 -> gulp
+
+open terminal in bottom problem window
+1 gulp clean
+2 gulp build
+3 gulp bundle --ship (uses config.jason) must add ship or temp folder will not update
+note: add entry point for all the webparts that i want to include in the budle
+4 gulp package-solution --ship
+file will be created sharepoint > solution > will have sppkg
+
+
+install gulp global
+
+in temp > deploy
+each web part will have two files: jason and js file
+
+
+
+group chat:
+From Abdul to Everyone:  01:39 PM
+ "scripteditor-web-part": {      "components": [        {          "entrypoint": "./lib/webparts/scriptEditor/ScriptEditorWebpart.js",          "manifest": "./src/webparts/scriptEditor/ScriptEditorWebpart.manifest.json"        }      ]    } "ScriptEditorStrings": "lib/webparts/scriptEditor/loc/{locale}.js"
+From Abdul to Everyone:  02:12 PM
+gulp cleangulp buildgulp bundle --ship
+
+
+then go and delete all the files in the cdn
+can download first in case something break witht he delete and can restore
+add everything from deploy folder
+
